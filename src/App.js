@@ -45,6 +45,7 @@ class App extends Component{
   componentDidUpdate(){
     this.handleTimeOut();
   };
+  // Limpar o lixo deicado pelo settimeout toda vez que o componente é desmontado
   componentWillUnmount(){
     clearTimeout(this.timeoutUpdate);
   };
