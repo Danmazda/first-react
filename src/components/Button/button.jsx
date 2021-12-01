@@ -1,4 +1,4 @@
-import { Component } from "react/cjs/react.development";
+import { Component } from 'react';
 import './styles.css'
 // export const Button = ({text, new}) => (<button onClick=new()>{text}</button>);
 export class Button extends Component{
