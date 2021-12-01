@@ -1,0 +1,16 @@
+.post{
+    background-color: #ffffffff;
+    box-shadow: 9px 8px 6px -7px rgba(0,0,0,0.61);
+    padding: 0.5rem;
+    /*Animação de transição, quando transformar, animação de 100ms */
+    transition: transform 100ms ease-in-out;
+  }
+  
+  .post:hover{
+    transform: scale(1.05);
+  }
+  
+  .post img{
+    /* de acordo com o elemento pai */
+    max-width: 100%;
+  }
